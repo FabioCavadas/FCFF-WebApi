@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentação", "1 - Apresentação", "{DC93DD53-2709-4B0D-B1A7-D04C7AB96BE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicação", "2 - Aplicação", "{A44BFFA4-8630-4D18-94B7-CE00CEF1BA6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domínio", "3 - Domínio", "{6AE01A71-0679-4370-A450-95E1A08F2A5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - InfraEstrutura", "4 - InfraEstrutura", "{C39D90BF-E1F3-4BC6-AE30-13DC147E6178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1 - Interface Web", "1.1 - Interface Web", "{3D9DA509-7BBC-4FFE-869C-4838FE2280DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.2 - Serviços REST", "1.2 - Serviços REST", "{A0ACDA1E-3EF2-49DA-BD24-11911019993F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCFFDomain", "FCFFDomain\FCFFDomain.csproj", "{1F3C0A61-3812-4561-8589-8B91B902E7D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCFFInfra.Data", "FCFFInfra.Data\FCFFInfra.Data.csproj", "{FBAE4290-31E8-4C66-BE93-2999F1CA764D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCFFApplication", "FCFFApplication\FCFFApplication.csproj", "{F263AE18-0C5D-4E8F-AF70-1EC7F0716D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCFFPresentation.Api", "FCFFPresentation.Api\FCFFPresentation.Api.csproj", "{BFD80915-3840-4D08-94D9-5A1F07ED139B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3C0A61-3812-4561-8589-8B91B902E7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3C0A61-3812-4561-8589-8B91B902E7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3C0A61-3812-4561-8589-8B91B902E7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3C0A61-3812-4561-8589-8B91B902E7D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAE4290-31E8-4C66-BE93-2999F1CA764D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAE4290-31E8-4C66-BE93-2999F1CA764D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAE4290-31E8-4C66-BE93-2999F1CA764D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAE4290-31E8-4C66-BE93-2999F1CA764D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F263AE18-0C5D-4E8F-AF70-1EC7F0716D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F263AE18-0C5D-4E8F-AF70-1EC7F0716D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F263AE18-0C5D-4E8F-AF70-1EC7F0716D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F263AE18-0C5D-4E8F-AF70-1EC7F0716D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFD80915-3840-4D08-94D9-5A1F07ED139B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD80915-3840-4D08-94D9-5A1F07ED139B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD80915-3840-4D08-94D9-5A1F07ED139B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD80915-3840-4D08-94D9-5A1F07ED139B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D9DA509-7BBC-4FFE-869C-4838FE2280DA} = {DC93DD53-2709-4B0D-B1A7-D04C7AB96BE0}
+		{A0ACDA1E-3EF2-49DA-BD24-11911019993F} = {DC93DD53-2709-4B0D-B1A7-D04C7AB96BE0}
+		{1F3C0A61-3812-4561-8589-8B91B902E7D9} = {6AE01A71-0679-4370-A450-95E1A08F2A5E}
+		{FBAE4290-31E8-4C66-BE93-2999F1CA764D} = {C39D90BF-E1F3-4BC6-AE30-13DC147E6178}
+		{F263AE18-0C5D-4E8F-AF70-1EC7F0716D54} = {A44BFFA4-8630-4D18-94B7-CE00CEF1BA6F}
+		{BFD80915-3840-4D08-94D9-5A1F07ED139B} = {DC93DD53-2709-4B0D-B1A7-D04C7AB96BE0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFF95D21-57FF-48E9-8B1D-D39B8C98B6B2}
+	EndGlobalSection
+EndGlobal
