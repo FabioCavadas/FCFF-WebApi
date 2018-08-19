@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FCFFDomain.Contracts.Services
 {
-    interface IEstoqueDomainService 
+    public interface IEstoqueDomainService 
         : IBaseDomainService<Estoque>
     {
     }

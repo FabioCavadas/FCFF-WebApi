@@ -30,8 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=7.0.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.7.0.1\lib\net45\AutoMapper.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,7 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IEstoqueAppService.cs" />
+    <Compile Include="Contracts\IProdutoAppService.cs" />
+    <Compile Include="Mappings\AutoMapperConfig.cs" />
+    <Compile Include="Mappings\EntityToViewModelMap.cs" />
+    <Compile Include="Mappings\ViewModelToEntityMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\EstoqueAppService.cs" />
+    <Compile Include="Services\ProdutoAppService.cs" />
+    <Compile Include="ViewModels\Estoques\EstoqueCadastroViewModel.cs" />
+    <Compile Include="ViewModels\Estoques\EstoqueConsultaViewModel.cs" />
+    <Compile Include="ViewModels\Estoques\EstoqueEdicaoViewModel.cs" />
+    <Compile Include="ViewModels\Produtos\ProdutoCadastroViewModel.cs" />
+    <Compile Include="ViewModels\Produtos\ProdutoConsultaViewModel.cs" />
+    <Compile Include="ViewModels\Produtos\ProdutoEdicaoViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FCFFDomain\FCFFDomain.csproj">
+      <Project>{1f3c0a61-3812-4561-8589-8b91b902e7d9}</Project>
+      <Name>FCFFDomain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -43,7 +43,6 @@
     <Compile Include="Contracts\Repositories\IBaseRepository.cs" />
     <Compile Include="Contracts\Repositories\IEstoqueRepository.cs" />
     <Compile Include="Contracts\Repositories\IProdutoRepository.cs" />
-    <Compile Include="Contracts\Repositories\IUnitOfWork.cs" />
     <Compile Include="Contracts\Services\IBaseDomainService.cs" />
     <Compile Include="Contracts\Services\IEstoqueDomainService.cs" />
     <Compile Include="Contracts\Services\IProdutoDomainService.cs" />

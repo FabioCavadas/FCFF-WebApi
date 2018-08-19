@@ -56,7 +56,6 @@
     <Compile Include="Repositories\BaseRepository.cs" />
     <Compile Include="Repositories\EstoqueRepository.cs" />
     <Compile Include="Repositories\ProdutoRepository.cs" />
-    <Compile Include="Repositories\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
